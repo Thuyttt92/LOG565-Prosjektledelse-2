@@ -8,7 +8,7 @@ Master datastruktur for LOG565 fase 3 — Nye Hædda Barneskole.
   - EVM-beregninger: PV, EV, AC, CPI, SPI, EAC, VAC per måned
 
 Kilder:
-  - godkjenning-av-budsjettendring.pdf (NHB-IRGESUND vedtak)
+  - godkjenning-av-budsjettendring.pdf (NHB-2026-15 vedtak)
   - månedsrapporter.pdf (16 teamledermøtereferater fra Bård)
   - irgesundinger_19104_752249_WBS_struktur-simulated.xlsx (Bårds WBS)
 """
@@ -19,13 +19,13 @@ from typing import Optional
 # =============================================================================
 # PROSJEKTRAMMER
 # =============================================================================
-BAC = 800.0  # MNOK — Baseline 1 (post-crashing, sak NHB-IRGESUND)
+BAC = 800.0  # MNOK — Baseline 1 (post-crashing, sak NHB-2026-15)
 RISIKORESERVE = 50.0  # MNOK — separat fra BAC
 TIDSBUFFER_UKER = 8  # ut over sluttdato før forsinkelse er reell
 PROSJEKTSTART = "01.02.2025"
 SLUTTDATO = "15.05.2026"
-PROSJEKTLEDER_GRUPPE = "irgesundinger"
-SAKSNUMMER_NHB = "NHB-IRGESUND"
+PROSJEKTLEDER_GRUPPE = "Gruppe 4.5"
+SAKSNUMMER_NHB = "NHB-2026-15"
 
 # Måned-mapping (mnd nr → (måned-navn, statusdato))
 MÅNEDER = {

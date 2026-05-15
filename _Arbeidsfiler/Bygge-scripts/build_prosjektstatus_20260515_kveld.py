@@ -48,7 +48,7 @@ story.append(section_header(1, "Hovedpoeng — fase 3 og 4 bygget opp"))
 story.append(section_rule())
 story.append(Paragraph(
     "Bård leverte de to siste vedleggene i Teams i ettermiddag — <b>godkjenning-av-budsjettendring.pdf</b> "
-    "(kommunestyrets vedtak NHB-IRGESUND om rammeutvidelse 700 → 800 MNOK) og <b>månedsrapporter.pdf</b> "
+    "(kommunestyrets vedtak NHB-2026-15 om rammeutvidelse 700 → 800 MNOK) og <b>månedsrapporter.pdf</b> "
     "(16 teamledermøtereferater for hele gjennomføringsfasen). Med disse på plass har vi i dag "
     "<b>fullført hele fase 3 (gjennomføring) og fase 4 (sluttrapport) som dokumentasjon</b> — alt unntatt "
     "selve MS Project tracking-arbeidet, som leveres som detaljert instruks med eksakte verdier.",
@@ -67,8 +67,8 @@ story.append(section_rule())
 
 leveranser = [
     ["Leveranse", "Fil(er)", "Status"],
-    ["Endringsdokument NHB-IRGESUND (crashing)",
-     "03 - Gjennomføring/Endringsdokument NHB-IRGESUND - Schedule crashing.docx",
+    ["Endringsdokument NHB-2026-15 (crashing)",
+     "03 - Gjennomføring/Endringsdokument NHB-2026-15 - Schedule crashing.docx",
      status_badge("OK", "ok")],
     ["Endringsdokument CR-001 (sprinkler)",
      "03 - Gjennomføring/Endringsdokument CR-001 - Sprinkler-romning.docx",
@@ -101,7 +101,7 @@ story.append(Paragraph(
 
 slutttall = [
     ["KPI", "Verdi", "Mot ramme"],
-    ["BAC (Baseline 1)", "800 MNOK", "Vedtatt NHB-IRGESUND"],
+    ["BAC (Baseline 1)", "800 MNOK", "Vedtatt NHB-2026-15"],
     ["AC kum. ved slutt", "800,0 MNOK", "På prikken"],
     ["EV kum. ved slutt", "800,0 MNOK", "100 % fullført"],
     ["CPI ved slutt", "1.000", "Innenfor budsjett"],
@@ -123,7 +123,7 @@ story.append(Paragraph(
     ST_BODY))
 endringer = [
     ["ID", "Tittel", "Pakke", "Kost", "Tid", "Beslutter"],
-    ["NHB-IRGESUND",
+    ["NHB-2026-15",
      "Komprimering 4.1 Råbygg + rammeutvidelse",
      "4.1 Råbygg",
      "+100 MNOK",

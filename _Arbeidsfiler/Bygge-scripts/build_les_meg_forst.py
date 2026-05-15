@@ -107,13 +107,13 @@ story.append(section_rule())
 nokkeltall = [
     ["Parameter", "Verdi", "Status"],
     ["Vedtatt sluttdato", "15. mai 2026", "Holdt på datoen"],
-    ["Vedtatt budsjettramme (etter NHB-IRGESUND)", "800 MNOK", "Brukt 800 MNOK på prikken"],
+    ["Vedtatt budsjettramme (etter NHB-2026-15)", "800 MNOK", "Brukt 800 MNOK på prikken"],
     ["CPI ved prosjektslutt", "1.000", "Innenfor budsjett"],
     ["SPI ved prosjektslutt", "1.000", "Iht. plan"],
     ["Risikoreserve brukt", "11 av 50 MNOK", "22 % brukt"],
     ["Tidsbuffer brukt", "1,5 av 8 uker", "19 % brukt"],
     ["Antall hendelser realisert", "3 risikoer (R-05, R-06, R-07)", "1 ble formell CR (CR-001)"],
-    ["Antall endringsdokumenter", "2 (NHB-IRGESUND + CR-001)", "Begge med full konsekvensanalyse"],
+    ["Antall endringsdokumenter", "2 (NHB-2026-15 + CR-001)", "Begge med full konsekvensanalyse"],
     ["WBS — arbeidspakker (leaves)", "32 stk", "Alle 100 % fullført"],
     ["Kravspesifikasjon — antall krav", "59 krav, 9 kategorier", "Alle levert"],
 ]
@@ -127,7 +127,7 @@ story.append(Paragraph(
     ST_BODY))
 endringer = [
     ["ID", "Hva", "Konsekvens"],
-    ["NHB-IRGESUND",
+    ["NHB-2026-15",
      "Komprimering (crashing) av 4.1 Råbygg + utvidelse av budsjettramme fra 700 til 800 MNOK. "
      "Vedtak fattet i kommunestyret 7. mai 2026.",
      "Sluttdato 15.05.2026 overholdt. +100 MNOK på totalramme. "

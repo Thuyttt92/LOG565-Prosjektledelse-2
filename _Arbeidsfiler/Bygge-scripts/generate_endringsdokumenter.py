@@ -1,6 +1,6 @@
 """
 Genererer to endringsdokumenter for LOG565 — Nye Hædda Barneskole:
-  1. NHB-IRGESUND — Schedule crashing av 4.1 Råbygg (kommunestyrets vedtak 07.05.2026)
+  1. NHB-2026-15 — Schedule crashing av 4.1 Råbygg (kommunestyrets vedtak 07.05.2026)
   2. CR-001 — Oppgradert sprinkler/rømning på 5.1 VVS (DSB-veileder, mnd 13)
 
 Bygger fra malen 03 - Gjennomføring/Maler/endringsdokument_mal.docx
@@ -119,17 +119,17 @@ def fill_historikk(doc, *, dato, endring, utarbeidet):
 
 
 # =============================================================================
-# DOKUMENT 1: NHB-IRGESUND — Schedule crashing
+# DOKUMENT 1: NHB-2026-15 — Schedule crashing
 # =============================================================================
 def lag_nhb_irgesund():
-    out = OUTDIR / "Endringsdokument NHB-IRGESUND - Schedule crashing.docx"
+    out = OUTDIR / "Endringsdokument NHB-2026-15 - Schedule crashing.docx"
     shutil.copy(MAL, out)
     doc = Document(out)
 
     fill_header_table(
         doc,
         prosjekt="Nye Hædda Barneskole — LOG565",
-        endrings_id="NHB-IRGESUND",
+        endrings_id="NHB-2026-15",
         dato="07.05.2026",
         versjon="1.0",
         tittel="Komprimering (crashing) av kritisk aktivitet 4.1 Råbygg og utvidelse av budsjettramme fra 700 til 800 MNOK",
@@ -211,7 +211,7 @@ def lag_nhb_irgesund():
     fill_beslutning(
         doc,
         anbefaling="Anbefales godkjent.",
-        beslutning="Godkjent av kommunestyret 07.05.2026 (sak nr. NHB-IRGESUND).",
+        beslutning="Godkjent av kommunestyret 07.05.2026 (sak nr. NHB-2026-15).",
         begrunnelse=(
             "Tid er definert som den viktigste rammebetingelsen for prosjektet — skolen skal stå klar til skolestart "
             "høsten 2026, og tidsrammen kan i praksis ikke forskyves. Vurderte alternativer (ikke iverksette tiltak, "
@@ -238,7 +238,7 @@ def lag_nhb_irgesund():
             "5) Etabler månedlig statusrapportering til byggekomiteen om 4.1 Råbygg. "
             "6) Kommuniser ny totalramme (800 MNOK) og crashing-vedtaket til alle teamledere."
         ),
-        ansvar="Prosjektleder (gruppe irgesundinger)",
+        ansvar="Prosjektleder (Gruppe 4.5)",
         frist="Implementering ferdigstilt før crashing-perioden starter (planlagt oppstart 4.1 Råbygg: august 2025)",
         styringsdok=(
             "Komplett prosjektplan (kap. om endringsstyring og rammer), MS Project (Baseline 1), risikoregister "
@@ -263,7 +263,7 @@ def lag_nhb_irgesund():
     fill_historikk(
         doc,
         dato="07.05.2026",
-        endring="Første utkast — opprinnelig registrering av kommunestyrets vedtak NHB-IRGESUND",
+        endring="Første utkast — opprinnelig registrering av kommunestyrets vedtak NHB-2026-15",
         utarbeidet="Prosjektkoordinator",
     )
 
@@ -382,7 +382,7 @@ def lag_cr_001_sprinkler():
             "5) Oppdater kostnadsprognose med 5,0 MNOK uttrekk fra risikoreserve. "
             "6) Oppdater MS Project-fremdrift med 1 uke forskyvning på 5.1."
         ),
-        ansvar="Prosjektleder (gruppe irgesundinger)",
+        ansvar="Prosjektleder (Gruppe 4.5)",
         frist="14.03.2026 (lukking av ansvarlig oppfølging iht. møtereferat mnd 13)",
         styringsdok=(
             "Risikoregister (R-06), kostnadsprognose, MS Project (fremdrift), kontraktsdokumenter med VVS-entreprenør, "
@@ -398,7 +398,7 @@ def lag_cr_001_sprinkler():
         doc,
         foreslatt_av="Fagansvarlig VVS",
         dato_foreslatt="03.02.2026",
-        vurdert_av="Prosjektleder, gruppe irgesundinger",
+        vurdert_av="Prosjektleder, Gruppe 4.5",
         dato_vurdert="03.02.2026",
         godkjent_av="Prosjekteier (Hædda kommune)",
         dato_godkjent="03.02.2026",

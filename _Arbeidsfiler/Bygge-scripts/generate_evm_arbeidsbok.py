@@ -78,8 +78,8 @@ def build_innstillinger(wb):
 
     rows = [
         ("Prosjektnavn", "Nye Hædda Barneskole", "Fast"),
-        ("Prosjektleder (gruppe)", "irgesundinger", "Gruppe 4.5"),
-        ("Saksnummer (kommunestyret)", "NHB-IRGESUND", "Crashing + rammeutvidelse"),
+        ("Prosjektleder (gruppe)", "Gruppe 4.5", "Bachelor i logistikk, Høgskolen Molde"),
+        ("Saksnummer (kommunestyret)", "NHB-2026-15", "Crashing + rammeutvidelse"),
         ("BAC (Budget at Completion)", BAC_KR, f"= {BAC:.0f} MNOK — Baseline 1 etter crashing av 4.1 Råbygg"),
         ("Godkjent risikoreserve", RISIKO_KR, f"= {RISIKORESERVE:.0f} MNOK (separat fra BAC)"),
         ("Godkjent tidsbuffer", TIDSBUFFER_UKER, "Uker ut over sluttdato før forsinkelse er reell"),
@@ -319,7 +319,7 @@ def build_bruksanvisning(wb):
         ("  4. Sjekk sporbarhet mot 'månedsrapporter.pdf' (Bårds rådata)", ""),
         ("", ""),
         ("KILDESPOR", "subhdr"),
-        ("  • BAC og crashing-vedtak: godkjenning-av-budsjettendring.pdf (NHB-IRGESUND)", ""),
+        ("  • BAC og crashing-vedtak: godkjenning-av-budsjettendring.pdf (NHB-2026-15)", ""),
         ("  • Faktisk fremdrift og hendelser: månedsrapporter.pdf (16 teamledermøter)", ""),
         ("  • WBS og baseline-rammer: irgesundinger_19104_..._WBS_struktur-simulated.xlsx", ""),
     ]

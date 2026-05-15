@@ -157,7 +157,7 @@ def steg_4_skjermbilder():
 # =============================================================================
 def steg_5_endringsdokumenter():
     print("=== STEG 5: Endringsdokumenter → undermappe ===")
-    move("03 - Gjennomføring/Endringsdokument NHB-IRGESUND - Schedule crashing.docx",
+    move("03 - Gjennomføring/Endringsdokument NHB-2026-15 - Schedule crashing.docx",
          "03 - Gjennomføring/Endringsdokumenter/")
     move("03 - Gjennomføring/Endringsdokument CR-001 - Sprinkler-romning.docx",
          "03 - Gjennomføring/Endringsdokumenter/")

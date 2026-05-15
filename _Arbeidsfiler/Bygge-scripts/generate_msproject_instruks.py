@@ -78,7 +78,7 @@ def build_instruks(wb):
                "Dette fryser den opprinnelige planen før crashing."),
         ("A3", "Lagre prosjektet."),
         ("", ""),
-        ("DEL B — APPLISER CRASHING (NHB-IRGESUND-vedtak)", ""),
+        ("DEL B — APPLISER CRASHING (NHB-2026-15-vedtak)", ""),
         ("B1", "Åpne arbeidspakke 4.1 Råbygg. Endre varighet fra 7 måneder (140 dager) til "
                "5 måneder (100 dager)."),
         ("B2", "Endre kostnad på 4.1 Råbygg fra 190 MNOK til 240 MNOK "
@@ -184,7 +184,7 @@ def build_baseline1_tasks(wb):
 
 def build_crashing_endring(wb):
     ws = wb.create_sheet("Crashing-endring")
-    ws["A1"] = "Crashing-endring på 4.1 Råbygg (NHB-IRGESUND)"
+    ws["A1"] = "Crashing-endring på 4.1 Råbygg (NHB-2026-15)"
     ws["A1"].font = Font(size=14, bold=True, color="1F4E78")
     ws.merge_cells("A1:D1")
 
@@ -204,8 +204,8 @@ def build_crashing_endring(wb):
         ("Kostnad", "190 MNOK", "240 MNOK", "+50 MNOK"),
         ("Prosjektets totalkostnad", "750 MNOK", "800 MNOK", "+50 MNOK (utvidet ramme)"),
         ("Prosjektets sluttdato", "Juli 2026 (forsinket)", "15. mai 2026 (i tide)", "–6 uker"),
-        ("Vedtak", "—", "Kommunestyret sak NHB-IRGESUND", "Godkjent 07.05.2026"),
-        ("Endringsdokument", "—", "Endringsdokument NHB-IRGESUND - Schedule crashing.docx", "—"),
+        ("Vedtak", "—", "Kommunestyret sak NHB-2026-15", "Godkjent 07.05.2026"),
+        ("Endringsdokument", "—", "Endringsdokument NHB-2026-15 - Schedule crashing.docx", "—"),
     ]
     for i, r in enumerate(rows, start=6):
         for c, val in enumerate(r, 1):

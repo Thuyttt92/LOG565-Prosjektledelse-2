@@ -99,7 +99,7 @@ def main():
         "[aktivitet]": "4.1 Råbygg",
         "[Eventuelle scope-endringer underveis dokumenteres her — se også endringsdokument "
         "CR-001 for crashing-saken.]":
-            "Crashing av 4.1 Råbygg (NHB-IRGESUND) endret tid og kostnad, men ikke scope. "
+            "Crashing av 4.1 Råbygg (NHB-2026-15) endret tid og kostnad, men ikke scope. "
             "DSB-veileder (CR-001) ga marginal scope-utvidelse på 5.1 VVS (oppgradert "
             "sprinklerdekning og rømningsskilting) — kompensert innenfor risikoreserve",
         "[Levert iht. plan]": "59 krav levert, 32 arbeidspakker fullført til 100 %",
@@ -108,7 +108,7 @@ def main():
         "Crashing-merkostnad: [Y mill kr]":
             "Crashing-merkostnad: 50 mill kr (4.1 Råbygg), totalramme utvidet fra 700 → 800 mill kr",
         "Krevde crashing av [aktivitet] for å nå frist":
-            "Crashing av 4.1 Råbygg krevd for å nå frist (NHB-IRGESUND-vedtak)",
+            "Crashing av 4.1 Råbygg krevd for å nå frist (NHB-2026-15-vedtak)",
         "[Antall mangler]": "0 kritiske mangler (BP3 godkjent, ferdigbefaring lukket i mnd 15–16)",
         "[Liste over anbefalte tiltak etter prosjektets avslutning, typisk inkludert "
         "oppfølgingsaktiviteter, gjenstående forbedringstiltak og prioriterte saker fra "
@@ -118,7 +118,7 @@ def main():
             "2) FDV-dokumentasjon (5.5 IKT-sikkerhet, 5.4 SD-anlegg) bør gjennomgås årlig de "
             "første tre årene for å sikre at oppdaterte sprinkler-/rømningsløsninger (CR-001) "
             "fortsatt etterleves. "
-            "3) Læringspunkter fra schedule crashing-prosessen (NHB-IRGESUND) tas inn i "
+            "3) Læringspunkter fra schedule crashing-prosessen (NHB-2026-15) tas inn i "
             "kommunens prosjektmal som case-eksempel for endringsstyring. "
             "4) Brukeropplæring (8.4) bør repeteres etter 6 mnd drift for å sikre at "
             "drift- og personalstaben behersker SD-anlegg og adgangskontroll.",
@@ -144,7 +144,7 @@ def main():
     # Row 3: Kost
     set_cell_simple(t1.rows[3].cells[2], f"{sluttall.ac_kum:.0f} mill kr (BAC = 800)")
     set_cell_simple(t1.rows[3].cells[3],
-                    "Rammeutvidelse 700→800 mill kr (NHB-IRGESUND). 11 mill kr risikoreserve brukt (22 %)")
+                    "Rammeutvidelse 700→800 mill kr (NHB-2026-15). 11 mill kr risikoreserve brukt (22 %)")
     # Row 4: Kvalitet
     set_cell_simple(t1.rows[4].cells[2], "0 kritiske mangler, FDV-dokumentasjon levert")
     set_cell_simple(t1.rows[4].cells[3], "Brukstillatelse innvilget. K-001 og K-002 oppfylt")
