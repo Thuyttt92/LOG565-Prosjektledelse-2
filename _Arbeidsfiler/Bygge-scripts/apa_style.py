@@ -197,28 +197,15 @@ class HeaderFooterCanvas(canvas.Canvas):
         super().save()
 
     def draw_header(self, report_title):
-        self.saveState()
-        self.setFont(BODY_FONT, 8.5)
-        self.setFillColor(MUTED)
-        self.drawString(2.5 * cm, A4[1] - 1.4 * cm, report_title)
-        # Tynn linje
-        self.setStrokeColor(BORDER)
-        self.setLineWidth(0.3)
-        self.line(2.5 * cm, A4[1] - 1.55 * cm, A4[0] - 2.5 * cm, A4[1] - 1.55 * cm)
-        self.restoreState()
+        """Tom header — ingen tekst, ren topp."""
+        pass
 
     def draw_footer(self, page_num, total):
+        """Minimalistisk footer: kun sidenummer sentrert."""
         self.saveState()
-        self.setFont(BODY_FONT, 8.5)
+        self.setFont(BODY_FONT, 9)
         self.setFillColor(MUTED)
-        # Sidenummer høyre
-        self.drawRightString(A4[0] - 2.5 * cm, 1.5 * cm, f"Side {page_num} av {total}")
-        # Prosjektlabel venstre
-        self.drawString(2.5 * cm, 1.5 * cm, "LOG565 — Nye Hædda Barneskole — Gruppe 4.5")
-        # Tynn linje over footer
-        self.setStrokeColor(BORDER)
-        self.setLineWidth(0.3)
-        self.line(2.5 * cm, 1.75 * cm, A4[0] - 2.5 * cm, 1.75 * cm)
+        self.drawCentredString(A4[0] / 2, 1.4 * cm, str(page_num))
         self.restoreState()
 
 
