@@ -1,0 +1,27 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Claude/AI-assistert utvikling (lokal config)
+.claude/
+CLAUDE.md
+
+# OS / OneDrive
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.tmp
+
+# Office-låsefiler (når en fil er åpen i Word/Excel/MS Project)
+~$*
+*.~lock*
+
+# Pensum: kapittelpresentasjoner som kan være rettighetsbeskyttet
+_Arbeidsfiler/Referansemateriale (ikke leveranse)/Pensum/
+_Arbeidsfiler/Referansemateriale (ikke leveranse)/How_To_Plan_Your_Project_With_Microsoft_Office.pdf
+
+# Tidligere git-konfigurasjon
+*.bak
